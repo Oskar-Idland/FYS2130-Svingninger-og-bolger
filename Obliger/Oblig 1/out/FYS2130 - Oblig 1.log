@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.1)  25 JAN 2023 13:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.1)  26 JAN 2023 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/oskar/OneDrive - Universitetet i Oslo/Dokumenter/GitHub/Privat/FYS2130-Svingninger-og-bolger/Obliger/FYS2130 - Oblig 1.tex"
-(c:/Users/oskar/OneDrive - Universitetet i Oslo/Dokumenter/GitHub/Privat/FYS2130-Svingninger-og-bolger/Obliger/FYS2130 - Oblig 1.tex
+**"c:/Users/oskar/OneDrive - Universitetet i Oslo/Dokumenter/GitHub/Privat/FYS2130-Svingninger-og-bolger/Obliger/Oblig 1/FYS2130 - Oblig 1.tex"
+(c:/Users/oskar/OneDrive - Universitetet i Oslo/Dokumenter/GitHub/Privat/FYS2130-Svingninger-og-bolger/Obliger/Oblig 1/FYS2130 - Oblig 1.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-08-23> (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -877,27 +877,27 @@ Package babel Info: Making " an active character on input line 113.
 )) (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/no\babel-norsk.tex
 Package babel Info: Importing font and identification data for norsk
 (babel)             from babel-no.ini. Reported on input line 11.
-) (c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.aux)
+) (c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.aux)
 \openout1 = `"FYS2130 - Oblig 1.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
@@ -960,50 +960,83 @@ Package grfext Info: Graphics extension search list:
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 65.
-
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count374
-Package hyperref Info: Link coloring OFF on input line 65.
-(c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out) (c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out)
+Package hyperref Info: Link coloring OFF on input line 66.
+ (c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out) (c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out)
 \@outlinefile=\write4
 \openout4 = `"FYS2130 - Oblig 1.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+esint on input line 67.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 68.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/esint\uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/oskar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.aux)
+{C:/Users/oskar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<Figures/1.a.png, id=14, 600.44325pt x 363.15675pt>
+File: Figures/1.a.png Graphic file (type png)
+<use Figures/1.a.png>
+Package pdftex.def Info: Figures/1.a.png  used on input line 74.
+(pdftex.def)             Requested size: 300.22089pt x 181.57793pt.
+ (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/ucs/data\uni-0.def
+File: uni-0.def 2022/08/07 UCS: Unicode data U+0000..U+00FF
+)
+<Figures/1.b.png, id=16, 489.027pt x 357.7365pt>
+File: Figures/1.b.png Graphic file (type png)
+<use Figures/1.b.png>
+Package pdftex.def Info: Figures/1.b.png  used on input line 84.
+(pdftex.def)             Requested size: 244.5129pt x 178.8678pt.
+ [2 <./Figures/1.a.png> <./Figures/1.b.png>]
+<Figures/1.c.png, id=30, 531.1845pt x 359.54324pt>
+File: Figures/1.c.png Graphic file (type png)
+<use Figures/1.c.png>
+Package pdftex.def Info: Figures/1.c.png  used on input line 94.
+(pdftex.def)             Requested size: 265.59158pt x 179.77118pt.
+ (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/ucs/data\uni-3.def
+File: uni-3.def 2022/08/07 UCS: Unicode data U+0300..U+03FF
+) (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/ucs/data\uni-33.def
+File: uni-33.def 2022/08/07 UCS: Unicode data U+2100..U+21FF
+) [3 <./Figures/1.c.png>] (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/ucs/data\uni-34.def
+File: uni-34.def 2022/08/07 UCS: Unicode data U+2200..U+22FF
+) [4]
+<Figures/2_c.pdf, id=51, 462.52798pt x 346.89601pt>
+File: Figures/2_c.pdf Graphic file (type pdf)
+<use Figures/2_c.pdf>
+Package pdftex.def Info: Figures/2_c.pdf  used on input line 174.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+<Figures/2_d.pdf, id=53, 462.52798pt x 346.89601pt>
+File: Figures/2_d.pdf Graphic file (type pdf)
+<use Figures/2_d.pdf>
+Package pdftex.def Info: Figures/2_d.pdf  used on input line 183.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+ [5 <./Figures/2_c.pdf> <./Figures/2_d.pdf>] [6] (c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.aux)
 Package rerunfilecheck Info: File `"FYS2130 - Oblig 1".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 42141 strings out of 477843
- 965533 string characters out of 2823600
- 1439343 words of memory out of 3000000
- 60370 multiletter control sequences out of 15000+600000
- 474404 words of font info for 50 fonts, out of 8000000 for 9000
+ 43939 strings out of 477843
+ 985919 string characters out of 2823600
+ 1444343 words of memory out of 3000000
+ 62125 multiletter control sequences out of 15000+600000
+ 477524 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,7n,94p,852b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on "c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.pdf" (1 page, 31256 bytes).
+ 99i,8n,94p,882b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.pdf" (6 pages, 303855 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

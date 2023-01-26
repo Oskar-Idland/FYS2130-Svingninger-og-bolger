@@ -1,7 +1,7 @@
-PWD c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger
+PWD c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1
 INPUT C:\Users\oskar\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\FYS2130 - Oblig 1.tex
-OUTPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.log
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\FYS2130 - Oblig 1.tex
+OUTPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.log
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -1359,10 +1359,10 @@ INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\no\b
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\no\babel-norsk.tex
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\no\babel-norsk.tex
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\no\babel-no.ini
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.aux
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.aux
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.aux
-OUTPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.aux
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.aux
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.aux
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.aux
+OUTPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.aux
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\ucsencs.def
@@ -1402,18 +1402,18 @@ INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-OUTPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-OUTPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.pdf
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+OUTPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+OUTPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.pdf
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
@@ -1450,12 +1450,90 @@ INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\oskar\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.aux
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
-INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\out\FYS2130 - Oblig 1.out
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Figures\1.a.png
+INPUT .\Figures\1.a.png
+INPUT Figures\1.a.png
+INPUT .\Figures\1.a.png
+INPUT .\Figures\1.a.png
+INPUT .\Figures\1.a.png
+INPUT .\Figures\1.a.png
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\esint\esint10.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\esint\esint10.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\esint\esint10.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-0.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-0.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-0.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-0.def
+INPUT .\Figures\1.b.png
+INPUT .\Figures\1.b.png
+INPUT Figures\1.b.png
+INPUT .\Figures\1.b.png
+INPUT .\Figures\1.b.png
+INPUT .\Figures\1.b.png
+INPUT .\Figures\1.b.png
+INPUT .\Figures\1.c.png
+INPUT .\Figures\1.c.png
+INPUT Figures\1.c.png
+INPUT .\Figures\1.c.png
+INPUT .\Figures\1.c.png
+INPUT .\Figures\1.c.png
+INPUT .\Figures\1.c.png
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-3.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-3.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-3.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-3.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-33.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-33.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-33.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-33.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-34.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-34.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-34.def
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex\latex\ucs\data\uni-34.def
+INPUT .\Figures\2_c.pdf
+INPUT .\Figures\2_c.pdf
+INPUT Figures\2_c.pdf
+INPUT .\Figures\2_c.pdf
+INPUT .\Figures\2_c.pdf
+INPUT .\Figures\2_c.pdf
+INPUT .\Figures\2_d.pdf
+INPUT .\Figures\2_d.pdf
+INPUT Figures\2_d.pdf
+INPUT .\Figures\2_d.pdf
+INPUT .\Figures\2_d.pdf
+INPUT .\Figures\2_d.pdf
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.aux
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.out
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\oskar\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
