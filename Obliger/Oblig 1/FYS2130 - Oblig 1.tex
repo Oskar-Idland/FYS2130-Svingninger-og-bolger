@@ -34,6 +34,7 @@
 \usepackage{verbatim}
 \usepackage{graphicx,wrapfig,lipsum,caption} %for wrapping av bilder
 \usepackage{mathtools} %for \abs{x}
+\usepackage{mathrsfs}
 \usepackage[norsk]{babel}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
@@ -177,7 +178,7 @@ Løsningen viser at den mekaniske energien er konstant og dermed bevart.
 \end{figure}
 
 \subsection*{d)}
-Som vi ser i figur \ref{fig: 2d} Blir formen mye rundere når vi skalerer med $x_0$ og $v_0$. 
+Som vi ser i figur \ref{fig: 2d} Blir formen mye flatere når vi skalerer med $x_0$ og $v_0$. 
 \begin{figure}[h!]
   \centering
   \includegraphics[scale = .5]{Figures/2_d.pdf}
@@ -187,6 +188,9 @@ Som vi ser i figur \ref{fig: 2d} Blir formen mye rundere når vi skalerer med $x
 
 \newpage
 \section*{Oppgave 3}
+  
+\subsection*{a)}
+  
 Vi bruker det generelle uttrykket for en harmonisk bevegelse. 
 \[
 x = A \cos(ωt + ϕ), \quad \dot{x} = -ωx \quad \ddot{x} = -ω^{2}x
@@ -198,9 +202,144 @@ x = A \cos(ωt + ϕ), \quad \dot{x} = -ωx \quad \ddot{x} = -ω^{2}x
 mω^{3} x^{2} = kωx
 \]
 \[
-x = \frac{k}{mω^{2}}
+ω = \sqrt{\frac{k}{m}} 
+\]
+\[
+E_k = \frac{1}{2}m \dot{x}^{2} = \frac{1}{2}m \left( -ω \dot{x} \right) ^{2} = \frac{1}{2}mω^{2}\dot{x}^{2} 
+\] 
+\[
+E_p = \frac{1}{2}kx^{2}
+\]
+\[
+E_k + E_p = \frac{1}{2}\ \underbrace{mω^{2}}_{k}\ \dot{x}^{2} + \frac{1}{2}kx^{2} = \frac{1}{2} \left(\underbrace{k\sin^{2}(ωt + ϕ) + k \cos ^{2}(ωt + ϕ)}_{1} \right) = \frac{k}{2}
 \]
 
+\subsection*{b)}
+Finner først ved hvilken tid den kinetiske energien er halvparten av den potensielle. 
+\[
+E_k = \frac{1}{2} E_p ⇒ k \sin ^{2} (ωt + ϕ) = \frac{1}{2} k \cos ^{2} (ωt + ϕ)
+\]
+\[
+\tan (\underbrace{ωt + ϕ}_{C}) = \frac{1}{\sqrt{2}} ⇒ C = \arctan \left( \frac{1}{\sqrt{2}} \right)
+\]
+Ettersom vi ikke får løst for tiden substituerer vi med $C$ som forteller oss hva som må være i cosinus utrykket for posisjon. 
+\[
+x_{C} = A \cos \left(\arctan \left( \frac{1}{\sqrt{2}} \right)  \right) = \sqrt{\frac{2}{3}}A
+\]
 
+\newpage
+\section*{Oppgave 4}
+Vi har følgende konverteringer 
+\begin{equation}\label{eq: con_1}
+  C \cos (ωt + ϕ) = A \cos (ωt) + B \sin (ωt), \quad \text{ hvis } A = C \cos ϕ \quad \text{ og } \quad B = C \sin ϕ
+\end{equation}
+
+\begin{equation}\label{eq: con_2}
+  A \cos (ωt) + B \sin (ωt) = C \cos (ωt + ϕ) \quad \text{ når } C = \sqrt{A^2 + B^2} \text{ og } ϕ = - \arctan \left( \frac{A}{B} \right) 
+\end{equation}
+
+\begin{equation}\label{eq: con_3}
+  \mathfrak{R} \left\{ E e^{i(ωt + ϕ)} \right\} = C \cos (ωt + ϕ), \quad \text{ når } C = E
+\end{equation}
+
+\begin{equation}\label{eq: con_4}
+  \mathfrak{R} \left\{ 𝒟 e^{iωt} \right\} = A \cos (ωt) + B\sin (ω), \quad \text{ når } 𝒟 = A - iB
+\end{equation}
+\subsection*{1.}
+\subsubsection*{a)}
+\[
+f(t) = -4\sin (ωt) = -4 \cos(ωt - \frac{\pi}{2})
+\]
+\[
+\mathfrak{R} \left\{ E e^{i(ωt + ϕ)} \right\} = C \cos (ωt + ϕ), \text{ når } C = E
+\]
+\[
+f(t) = -4 e^{i \left( ωt - \frac{π}{2} \right) }
+\]
+\subsubsection*{b)}
+\[
+f(t) = 7 \sin \left( ωt - \frac{π}{4} \right) , \qquad E = 7 \quad , \quad ϕ = - \frac{π}{4}
+\]
+Bruker samme teknikk som i forrige oppgave. 
+\[
+f(t) = 7 \cos  \left( ωt \underbrace{- \frac{π}{4} - \frac{π}{2}}_{-\frac{3}{4}π} \right)
+\]
+\[
+\mathfrak{R} \left\{ 7 e^{i\left( ωt - \frac{3}{4} \right) π} \right\} \qquad E = 7 \quad , \quad ϕ = - \frac{3}{4}π
+\]
+\subsubsection*{c)}
+Bruker at 
+\[
+\mathfrak{R} \left\{ 𝒟 e^{iωt} \right\} = A\cos (ωt) + B\sin (ωt) , \quad 𝒟 = A - iB 
+\]
+\[
+f(t) = \mathfrak{R} \left\{ 7ie^{\left( iωt \right) } \right\} = -7\sin (ωt) = -7\cos (ωt - \frac{π}{2}) 
+\]
+\[
+f(t) = \mathfrak{R} \left\{ -7e^{i \left( ωt - \frac{π}{2} \right) } \right\} , \qquad E = -7 \quad , \quad ϕ = - \frac{π}{2}
+\]
+
+\subsubsection*{d)}
+\[
+f(t) = 2 \sin (ωt) \cos (ωt) = \sin (2ωt) = \cos \left( 2ωt - \frac{π}{2} \right)
+\]
+Bruker samme regel som i oppgave a
+\[
+\mathfrak{R} \left\{ e^{i \left( 2ω - \frac{π}{2} \right) } \right\}, \qquad E = 1 \quad , \quad ϕ = - \frac{π}{2}
+\]
+
+\subsection*{2.}
+Vi bruker at 
+\[
+\mathfrak{R} \left\{ 𝒟  e^{i \left(ωt \right) } \right\}  = A \cos (ωt) + B \sin (ωt) \text{ når } 𝒟  = A - iB 
+\]
+og at 
+\[
+C \cos (ωt + ϕ) = A \cos (ωt) + B \sin (ωt) \quad \text{ når } \quad A = C \cos ϕ \quad , \quad B = -C \sin ϕ
+\]
+\subsubsection*{a)}
+\[
+f(t) = 7 \sin \left( ωt - \frac{π}{4} \right) = 7 \cos \left( ωt - \frac{3}{4}π \right) 
+\]
+\[
+A = 7 \cos \left( -\frac{3}{4} \right) = - 7\frac{\sqrt{2}}{2} , \quad B = -7 \sin \left( - \frac{3}{4} \right) = 7\frac{\sqrt{2}}{2}
+\]
+\[
+f(t) = - \frac{\sqrt{2}}{2} \cos (ωt) + \frac{\sqrt{2}}{2} \sin (ωt)
+\]
+\[
+f(t) = \mathfrak{R} \left\{ \left( - \frac{\sqrt{2}}{2} - i \frac{\sqrt{2}}{2} \right) e^{i(ωt)} \right\}, \text{ når } \quad 𝒟  = - \frac{\sqrt{2}}{2} - i \frac{\sqrt{2}}{2} 
+\]
+\subsubsection*{b)}
+Bruker at 
+\[
+\mathfrak{R} \left\{ E e^{i(ωt + ϕ)} \right\} = C \cos (ωt + ϕ), \text{ når } \quad C = E
+\]
+\[
+f(t) = \mathfrak{R}  \left\{ e^{i\left( ωt - \frac{π}{2} \right) } \right\} 
+\]
+\[
+f(t) = \cos \left( ωt - \frac{π}{2} \right)
+\]
+\[
+A = C\cos ϕ = 0 \quad , \quad B = - C\sin ϕ = 1
+\]
+\[
+f(t) = \sin (ωt)
+\]
+\[
+f(t) = \mathfrak{R} \left\{ i e^{i(ωt)} \right\}, \qquad 𝒟  = -i
+\]
+
+\section*{Oppgave 5}
+\subsection*{a)}
+\subsubsection*{Fordeler}
+Når en løser problemer numerisk vil en slippe å gå gjennom alle trinnene i en analytisk løsning. Dette vil gjøre at en kan løse problemer som er for omfattende for en analytisk løsning. Det er også like lett å løse "stygge" problemer som kan involvere ting som friksjon like lett som mer "pene" problemer. 
+
+\subsubsection*{Ulemper}
+Avrundingsfeil vil kunne oppstå når en løser problemer numerisk. Dette gjelder spesielt når et stykke involverer irrasjonelle, eller veldig små tall tall
+
+\subsection*{b)}
+Hvis vi har muligheten kan vi sammenligne med den analytiske løsningen. Hvis ikke kan vi bruke symmetrier og fakta vi vet om systemet fra før. Foreksempel at mekanisk energi, eller en annen fysisk størrelse, er konstant. 
 
 \end{document}
