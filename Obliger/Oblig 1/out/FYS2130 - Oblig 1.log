@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.1)  27 JAN 2023 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.1)  31 JAN 2023 19:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,15 +1021,15 @@ File: uni-34.def 2022/08/07 UCS: Unicode data U+2200..U+22FF
 <Figures/2_c.pdf, id=51, 462.52798pt x 346.89601pt>
 File: Figures/2_c.pdf Graphic file (type pdf)
 <use Figures/2_c.pdf>
-Package pdftex.def Info: Figures/2_c.pdf  used on input line 175.
+Package pdftex.def Info: Figures/2_c.pdf  used on input line 174.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
 <Figures/2_d.pdf, id=53, 462.52798pt x 346.89601pt>
 File: Figures/2_d.pdf Graphic file (type pdf)
 <use Figures/2_d.pdf>
-Package pdftex.def Info: Figures/2_d.pdf  used on input line 184.
+Package pdftex.def Info: Figures/2_d.pdf  used on input line 183.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
  [5 <./Figures/2_c.pdf> <./Figures/2_d.pdf>] [6]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 242.
+LaTeX Font Info:    Trying to load font information for U+euf on input line 241.
  (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 ) (C:\Users\oskar\AppData\Local\Programs\MiKTeX\tex/latex/ucs/data\uni-468.def
@@ -1047,7 +1047,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,10n,94p,882b,609s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/oskar/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on "c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.pdf" (9 pages, 357875 bytes).
+Output written on "c:\Users\oskar\OneDrive - Universitetet i Oslo\Dokumenter\GitHub\Privat\FYS2130-Svingninger-og-bolger\Obliger\Oblig 1\out\FYS2130 - Oblig 1.pdf" (9 pages, 357857 bytes).
 PDF statistics:
  238 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)

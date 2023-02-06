@@ -77,7 +77,7 @@
   \label{fig: 1a}
 \end{figure}
 
-Vi finner amplituden $A$ ved å se hvor høyt over likevektslinjen (ved y = 0) bølgetoppen kommer. Dette er $A = 0.5$ m. Periodetiden $T$ er hvor lang tid bølgen bruker på å gjennomføre én hel oscillasjon. Ettersom x-aksen er tid i sekunder trenger vi bare å se på avstanden på grafen. Her ser vi at $T = 4$. 
+Vi finner amplituden $A$ ved å se hvor høyt over likevektslinjen (ved y = 0) bølgetoppen kommer. Dette er $A = 1$ m. Periodetiden $T$ er hvor lang tid bølgen bruker på å gjennomføre én hel oscillasjon. Ettersom x-aksen er tid i sekunder trenger vi bare å se på avstanden på grafen. Her ser vi at $T = 4$.  e
 
 \subsection*{b)}
 \begin{figure}[h!]
@@ -87,7 +87,7 @@ Vi finner amplituden $A$ ved å se hvor høyt over likevektslinjen (ved y = 0) b
   \label{fig: 1b}
 \end{figure}
 
-Vi finner amplituden $A$ på samme måte og frekvensen $f = \frac{1}{T}$, finner $A = 3$ og $f = \frac{4}{3}$ 
+Vi finner amplituden $A$ på samme måte og frekvensen $f = \frac{1}{T}$, finner $A = 3$ og $f = \frac{3}{4}$ 
 
 \subsection*{c)}
 \begin{figure}[h!]
@@ -95,7 +95,7 @@ Vi finner amplituden $A$ på samme måte og frekvensen $f = \frac{1}{T}$, finner
     \includegraphics[scale = .5]{Figures/1.c.png}
     \caption{Oppgave 1c}
     \label{fig: 1c}
-  \end{figure}
+  \end{figure} 
   
 Vi vet at vinkelfrekvensen $ω = 2πf$. Vi må først finne $f$. Vi bruker samme metode som i b og finner periodetiden $T = 5$ som gir frekvens $f = \frac{1}{5}$ og $ω = 2πf = \frac{2π}{5}$. For å finne faseforskyvningen starter vi med å se på funksjonen når $t = 0$. Da er $y = 0.25$. Vi løser dette for det generelle tilfellet. 
 \[
@@ -105,7 +105,6 @@ Vi vet at vinkelfrekvensen $ω = 2πf$. Vi må først finne $f$. Vi bruker samme
  ϕ = \arccos (0.25)
 \]
 
-  
 \section*{Oppgave 2}
 \subsubsection*{a)}
 For en harmonisk bevegelse kan posisjonen beskrives med en cosinus funksjon på formen
@@ -211,7 +210,7 @@ E_k = \frac{1}{2}m \dot{x}^{2} = \frac{1}{2}m \left( -ω \dot{x} \right) ^{2} = 
 E_p = \frac{1}{2}kx^{2}
 \]
 \[
-E_k + E_p = \frac{1}{2}\ \underbrace{mω^{2}}_{k}\ \dot{x}^{2} + \frac{1}{2}kx^{2} = \frac{1}{2} \left(\underbrace{k\sin^{2}(ωt + ϕ) + k \cos ^{2}(ωt + ϕ)}_{1} \right) = \frac{k}{2}
+E_k + E_p = \frac{1}{2}\ \underbrace{mω^{2}}_{k}\ \dot{x}^{2} + \frac{1}{2}kx^{2} = \frac{1}{2} \left(\underbrace{k\sin^{2}(ωt + ϕ) + k \cos ^{2}(ωt + ϕ)}_{k} \right) = \frac{k}{2}
 \]
 
 \subsection*{b)}
@@ -226,6 +225,7 @@ Ettersom vi ikke får løst for tiden substituerer vi med $C$ som forteller oss 
 \[
 x_{C} = A \cos \left(\arctan \left( \frac{1}{\sqrt{2}} \right)  \right) = \sqrt{\frac{2}{3}}A
 \]
+
 
 \newpage
 \section*{Oppgave 4}
@@ -243,7 +243,7 @@ Vi har følgende konverteringer
 \end{equation}
 
 \begin{equation}\label{eq: con_4}
-  \mathfrak{R} \left\{ 𝒟 e^{iωt} \right\} = A \cos (ωt) + B\sin (ω), \quad \text{ når } 𝒟 = A - iB
+  \mathfrak{R} \left\{ 𝒟 e^{iωt} \right\} = A \cos (ωt) + B\sin (ωt), \quad \text{ når } 𝒟 = A - iB
 \end{equation}
 \subsection*{1.}
 \subsubsection*{a)}
@@ -305,10 +305,10 @@ f(t) = 7 \sin \left( ωt - \frac{π}{4} \right) = 7 \cos \left( ωt - \frac{3}{4
 A = 7 \cos \left( -\frac{3}{4} \right) = - 7\frac{\sqrt{2}}{2} , \quad B = -7 \sin \left( - \frac{3}{4} \right) = 7\frac{\sqrt{2}}{2}
 \]
 \[
-f(t) = - \frac{\sqrt{2}}{2} \cos (ωt) + \frac{\sqrt{2}}{2} \sin (ωt)
+f(t) = - 7\frac{\sqrt{2}}{2} \cos (ωt) + 7\frac{\sqrt{2}}{2} \sin (ωt)
 \]
 \[
-f(t) = \mathfrak{R} \left\{ \left( - \frac{\sqrt{2}}{2} - i \frac{\sqrt{2}}{2} \right) e^{i(ωt)} \right\}, \text{ når } \quad 𝒟  = - \frac{\sqrt{2}}{2} - i \frac{\sqrt{2}}{2} 
+f(t) = \mathfrak{R} \left\{ \left( - 7\frac{\sqrt{2}}{2} - 7i \frac{\sqrt{2}}{2} \right) e^{i(ωt)} \right\}, \text{ når } \quad 𝒟  = - 7\frac{\sqrt{2}}{2} - 7i \frac{\sqrt{2}}{2} 
 \]
 \subsubsection*{b)}
 Bruker at 
@@ -340,6 +340,7 @@ Når en løser problemer numerisk vil en slippe å gå gjennom alle trinnene i e
 Avrundingsfeil vil kunne oppstå når en løser problemer numerisk. Dette gjelder spesielt når et stykke involverer irrasjonelle, eller veldig små tall tall
 
 \subsection*{b)}
-Hvis vi har muligheten kan vi sammenligne med den analytiske løsningen. Hvis ikke kan vi bruke symmetrier og fakta vi vet om systemet fra før. Foreksempel at mekanisk energi, eller en annen fysisk størrelse, er konstant. 
+Hvis vi har muligheten kan vi sammenligne med den analytiske løsningen. Hvis ikke kan vi bruke symmetrier og fakta vi vet om systemet fra før. Foreksempel at mekanisk energi, eller en annen fysisk størrelse, er konstant.
+
 
 \end{document}
