@@ -1,0 +1,168 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{enumerate}
+\newtheorem{theorem}{Theorem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\setlength{\parindent}{0cm}
+\usepackage{graphics}
+\usepackage{graphicx} % Required for including images
+\usepackage{subcaption}
+\usepackage{bigintcalc}
+\usepackage{pythonhighlight} %for pythonkode \begin{python}   \end{python}
+\usepackage{appendix}
+\usepackage{arydshln}
+\usepackage{physics}
+\usepackage{tikz-cd}
+\usepackage{booktabs} 
+\usepackage{adjustbox}
+\usepackage{mdframed}
+\usepackage{relsize}
+\usepackage{physics}
+\usepackage[thinc]{esdiff}
+\usepackage{fixltx2e}
+\usepackage{esint}  %for lukket-linje-integral
+\usepackage{xfrac} %for sfrac
+\usepackage{hyperref} %for linker, må ha med hypersetup
+\usepackage[noabbrev, nameinlink]{cleveref} % to be loaded after hyperref
+\usepackage{amssymb} %\mathbb{R} for reelle tall, \mathcal{B} for "matte"-font
+\usepackage{listings} %for kode/lstlisting
+\usepackage{verbatim}
+\usepackage{graphicx,wrapfig,lipsum,caption} %for wrapping av bilder
+\usepackage{mathtools} %for \abs{x}
+\usepackage[norsk]{babel}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\pagecolor[rgb]{0.075,0.075,0.075} \color[rgb]{1,1,1} %TODO: Slett når ferdig%
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\author{Oskar Idland}
+\title{Eksamen 2019}
+\date{}
+\begin{document}
+\maketitle
+\newpage
+
+\section*{Oppgave 1}
+  \subsection*{a)}
+  Brewster vinkelen er vinkelen hvor en bølge treffer et nytt medium innfallsvinkelen står 90 grader på den transmitterte bølgen. 
+
+  \subsection*{b)}
+  Poyntingvektoren viser størrelse og retning på energitettheten til en elektromagnetiske bølge. Enheten er $W / m^2$
+
+\subsection*{c)}
+Planbølgen er gitt ved $f(x,t) = A \cos (kx - ωt + ϕ)$
+
+\subsection*{d)}
+\paragraph*{Konstant}
+\begin{itemize}
+    \item Frekvens
+\end{itemize}
+
+\paragraph*{Endres}
+\begin{itemize}
+    \item Bølgehastighet
+    \item Bølgelengde 
+    \item Utslag 
+\end{itemize}
+
+\subsection*{e)}
+Vi bruker formelen i likning 10.15/16 i POW. Ettersom $θ_i = 90^{∘}$ dropper vi leddet med sinus. 
+Da blir $R_s = \left(n_1 -n_2 / n_1 + n_2\right)^2$
+
+\section*{Oppgave 2}
+\subsection*{a)}
+\colorbox{red}{Usikker}
+Vi kan bestemme brennvidden ved å bruke linseformelen. 
+\[
+\frac{1}{f} = \frac{1}{s} + \frac{1}{s'} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)
+\]
+for å finne brennvidden $f$. Det enkleste er å ha en objektavstand $s$ veldig langt unna slik at $1 / s ≈ 0$ som gjør at $f ≈ s'$, hvor $s'$ er bildeavstanden. Da er det bare å se hvor langt unna linsen man må se for å få et skarpt bilde. 
+
+\subsection*{b)}
+Vi bruker linsemakerformelen for å finne krummningsradien $R_c$
+\[
+\frac{1}{f} = (n-1) \left( \frac{1}{R_1} - \frac{1}{R_2} \right)
+\]
+Ettersom linsen er symmetrisk vet vi at $R_1 = - R_2$. Lyset beveger seg med en hastighet $c = 2c_0 / 3$ som gir $n = c_0 / c = 3 / 2$. 
+\[
+R_c = 2(3 / 2 - 1)f = 25 \text{mm}
+\]
+
+\subsection*{c)}
+Dispersjon er når bølgehastigheten til en bølge ikke lenger er konstant, men avhengig av bølgelengden. Dette er ikke til å unngå i en lupe og gjør at forskjellige bølgelengder vil ha litt forskjellig brennvidde
+
+\subsection*{d)}
+Ved store mengder dispersjon vil du få forskjellig brennvidde avhengig av bølgelengden. Da kan bilde bli uskarpt. 
+
+\subsection*{e)}
+Vi bruker Rayleighs oppløsningskriterium. 
+\[
+Ψ = \frac{1.22 λ}{D}
+\]
+hvor $Ψ$ er vinkelen mellom de to objektene, $λ$ er bølgelengden og $D$ er diameteren til linsen.
+\[
+D = \frac{1.22 ⋅ 500 \text{ nm}}{9.7 ⋅ 10^{-12}} = 69 \text{ km}  
+\]
+
+ 
+\section*{Oppgave 3}
+\subsection*{a)}
+Kreftene som virker på steinen er luftmotstand, og tyngdekraften. Når steinen flyr forbi jordas sentrum vil tyngdekraftvektoren skifte retning, og fortsette å peke mot jordas sentrum. 
+
+\subsection*{b)}
+Vi ser at systemet kan sees på som en harmonisk oscillator, hvor $r = -ω^2 \ddot{r}$ og prøver derfor å sette $r = A\cos (ωt + ϕ)$. Ved å initialbetingelsene $\dot{r}(0) = 0 ⇒ ϕ = 0$ og $r(0) = R_e ⇒ A = R_e$ får vi følgende utrykk for $r$
+\[
+r = R_e \cos \left(\sqrt{\frac{3πGρ_0}{4}}t\right)
+\]
+
+
+
+
+\section*{Oppgave 4}
+\subsection*{a)}
+x-aksen vil vise tiden, og y-aksen viser intensiteten på lyden. 
+
+\subsection*{b)}
+Den høyeste frekvensen vi kan få er nyquist frekvensen på 22050 Hz. Fourier transformasjonen vil ha en skala fra 0, til 22050 Hz på x-aksen. Den vil ha en topp på 1300 Hz basert på at vi ser 13 topper, per 10 millisekund. 
+
+\subsection*{c)}
+Vi lager et spektogram ved å dele opp lydsignalet i mindre deler. Videre analyseres filen, og vi får en array med frekvenser og intensiteter. Dette plotter vi i et heatmap, for hver tids seksjon. Dette gjentas for hele lydfilen. 
+
+\subsection*{d)}
+x-aksen skal vise tid, og y-aksen skal vise frekvens. Colorbaren skal vise intensitet. 
+
+\subsection*{e)}
+Forskjellen mellom de to spektrogrammeneer at den første har et mye større tidsvindu enn den andre. Dette førere til høyre oppløsning av frekvens. Det motsatte stemmer for det andre bildet. 
+
+
+  
+  
+  
+  
+
+\end{document}

@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{enumerate}
+\newtheorem{theorem}{Theorem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{pgfplots}
+\setlength{\parindent}{0cm}
+\usepackage{graphics}
+\usepackage{graphicx} % Required for including images
+\usepackage{subcaption}
+\usepackage{bigintcalc}
+\usepackage{pythonhighlight} %for pythonkode \begin{python}   \end{python}
+\usepackage{appendix}
+\usepackage{arydshln}
+\usepackage{physics}
+\usepackage{tikz-cd}
+\usepackage{booktabs} 
+\usepackage{adjustbox}
+\usepackage{mdframed}
+\usepackage{relsize}
+\usepackage{physics}
+\usepackage[thinc]{esdiff}
+\usepackage{fixltx2e}
+\usepackage{esint}  %for lukket-linje-integral
+\usepackage{xfrac} %for sfrac
+\usepackage{hyperref} %for linker, må ha med hypersetup
+\usepackage[noabbrev, nameinlink]{cleveref} % to be loaded after hyperref
+\usepackage{amssymb} %\mathbb{R} for reelle tall, \mathcal{B} for "matte"-font
+\usepackage{listings} %for kode/lstlisting
+\usepackage{verbatim}
+\usepackage{graphicx,wrapfig,lipsum,caption} %for wrapping av bilder
+\usepackage{mathtools} %for \abs{x}
+\usepackage[norsk]{babel}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+\author{Oskar Idland}
+\title{Oblig 6}
+\date{}
+\begin{document}
+\maketitle
+\newpage
+
+\section*{Oppgave 1}
+Ettersom $E$ er gitt av $y$ og har $\hat{k}$ i utrykket vet vi at feltet går i $z$ retning og bølgen beveger seg i $y$-retning. Det er da trivielt via høyrehåndsregelen at $B$ er gitt ved følgende. 
+\[
+B(y,t) = B_0 \cos (ky - \omega t) \hat{i} \quad , \quad B_0 = E_0 / c
+\] 
+Bølgelengden $λ$ er gitt ved $λ =  2πc_0 / ω = 2π2.99 ⋅ 10^{8} / 2.9 ⋅ 10^{13} ≈ 2π10^{-5} $. En slik bølgelengde ligger i det infrarøde spekteret. 
+
+\section*{Oppgave 2}
+Vi vet at $E_0 = cB_0$
+\[
+1.9 ≠ \underbrace{3 \cdot 10^8 ⋅  1.05}_{3.15 \cdot 10^8}
+\] 
+Utrykket stemmer ikke og vi vet dermed at målingen er feil. 
+
+\section*{Oppgave 3}
+Intensiteten er proporsjonal med avstanden til kilden. 
+\[
+I_{\text{min}} = \frac{0.7}{4 π ⋅  0.07^{2}} = 11.4 \quad , \quad I_{\text{max}} = \frac{1}{4 π ⋅  0.07^{2}} = 16.2
+\]
+Vi ser at intensiteten ligger mellom 11.4 og 16.2 $W / m^2$. I rapporten står det at grenseverdien lå mellom 2- 10 $W / m^2$ og har en middelverdi på 0.01 samt en medianverdi på 0.0003 $W / m^2$. Dette er langt unna hva vi har funnet. Våre målinger ble gjort under suboptimale forhold hvor mobilen måtte jobbe hardere for å opprettholde stabil forbindelse. Til vanlig vil ikke intensiteten være så høy. 
+
+\section*{Oppgave 4}
+Vi vet at summen av kreftene $F$ kommer fra solas gravitasjonskraft $F_{⊙}$ og kraften fra trykket i solen $F_{\text{P}}$. Videre vet vi også at trykket fra strålingen er gitt ved $p = I / c $. Som gir $ F_{\text{p}} = P_0A_{\text{støvkorn}} / cA_{⊙}$, hvor $A_{\text{støvkorn}}$ er tverrsnittet til kuleflaten og $A_{⊙}$ er overflate arealet til en kule med radius R. For enkelthetens skyld regner vi på alt radielt.  
+\[
+F = F_{⊙} + F_{\text{P}}
+\]
+\[
+F(\hat{r}) = -G\frac{mM_{⊙}}{R^2} \hat{r} + \frac{πr^2P_0 }{4πcR^2} \hat{r}
+\]
+Videre finner vi når kreftene balanserer hverandre da $F = 0$. 
+\[
+G\frac{mM_{⊙}}{R^2} \hat{r} = \frac{r^2P_0 }{4cR^2} \hat{r}
+\]
+Vi kjenner ikke massen $m$ men kan finne et utrykk for dette ved bruk av tettheten $ρ$ og radiusen $r$
+\[
+G\frac{4πr^3ρM_{⊙}}{3R^2} \hat{r} = \frac{r^2P_0 }{4cR^2} \hat{r}
+\]
+\[
+r = \frac{3P_0}{16πcρGM_{⊙}}  ≈ 167 \text{ nm}
+\]
+\end{document}

@@ -66,9 +66,9 @@
 \newpage
 \section*{Oppgave 1}
 Vi bruker definisjonen av desibel skalaen. 
-\[
-X = 10\log_{10}\left(\frac{I}{I_0}\right)
-\] 
+\begin{equation}
+  X = 10\log_{10}\left(\frac{I}{I_0}\right)
+\end{equation}
 Hvor $I_0$ er intensiteten til en referanse, og $I$ er intensiteten til den målte strålingen. Referanse intensiteten vil da ha en desibel verdi $X_0$ på 0 som vi ser \cref{eq: X_0}. 
 \begin{equation}\label{eq: X_0}
   X_0 = 10 \text{ dB} \log \left(\frac{I_0}{I_0}\right) = 0
@@ -80,10 +80,58 @@ En økning i lydstyrke på $X$ desibel ved en lyd-intensitet $k I_0$på  kan vi 
 
 \section*{Oppgave 2}
 \subsection*{a)}
-Vi bruker at forholdet mellom lengde og frekvens til å finne ut hvor det femte båndet ligger. 
+Vi bruker at $f = ν / 2L$ for å finne bølgehastigheten $ν$. som er konstant for alle tonene. 
 \[
-\frac{110 \text{ Hz}}{146.83 \text{ Hz}} = \frac{x \text{ cm}}{65 \text{ cm}} ⇒ x = 48.7 \text{ cm}
+ν = 2f_1L_1 = 2 ⋅ 110 ⋅ 65 = 14300 \text{ cm/s}
+\]
+\[
+L_2 = \frac{ν}{2f_2} = \frac{14300}{2 ⋅ 146.83} = 48.7 \text{ cm}
+\]
+\subsection*{b)}
+Vi vet at hvor hver halvtone vil frekvensen øke med en faktor av 1.059. Vi kan derfor finne lengden til de andre tonene ved å bruke denne faktoren.
+\[
+L_n = \frac{ν}{2 ⋅ f_0 ⋅ 1.059^{n}}
+\]
+\[
+L_1 = \frac{ν}{2 ⋅ f_0 ⋅ 1.059^{1}} = \frac{14300}{2 ⋅ 110 ⋅ 1.059} = 61.28 \text{ cm}
+\]
+\[
+L_6 = \frac{ν}{2 ⋅ f_0 ⋅ 1.059^{6}} = \frac{14300}{2 ⋅ 110 ⋅ 1.059^6} = 46.10 \text{ cm}
+\]
+Ettersom vi ganger med en faktor for hvert bånd vil naturligvis ikke avstanden mellom tonene være like. Avstanden  mellom båndene kan vi regne ut via $L_1 - L_2$. 
+\[
+L_1 - L_2 = \frac{14300}{220 ⋅ 1.059} - \frac{14300}{220 ⋅ 1.059^2} = 3.42 \text{ cm} 
+\]
+\[
+\frac{3.42}{L_1} = \frac{3.42}{61.28} = 0.0558
 \]
 
+\section*{Oppgave 3}
+Vi bruker formelen for doppler skiftet. 
+\[
+f_0 = \frac{ν + ν_0}{ν - ν_s} f_s
+\]
+\[
+f_s = \frac{ν - v_s}{ν + ν_0} f_0
+\]
+\[
+115 \text{ km/h} = 31.9 \text{ m/s}
+\]
+\[
+65 \text{ km/h} = 18.1 \text{ m/s}
+\]
+\[
+v = 344 \text{ m/s}
+\]
+Fortegnet på hastighetene bestemmes av om bilen kjører mot eller fra oss. 
+
+Frekvensen etter bilen har kjørt forbi oss:
+\[
+f_s = \frac{344 - 18.1}{344 + 31.9} ⋅ 700 = 606.9 \text{ Hz}
+\]
+Frekvensen før at bilen har kjørt forbi oss:
+\[
+f_s = \frac{344 + 18.06}{344 - 31.9} ⋅ 700 = 812.05 \text{ Hz}
+\]
 
 \end{document}
