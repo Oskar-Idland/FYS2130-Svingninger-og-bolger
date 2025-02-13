@@ -16,8 +16,8 @@ w1      =    0.1 * 10**(-3) # m
 l       =    30  * 10**(-3) # m
 ρ0      =    1500           # kg/m^3
 ρ1      =    2500           # kg/m^3
-k0      =    10**-6             # kg/s^2
-k1      =    10**-1             # kg/s^2
+k0      =    10**-6         # kg/s^2
+k1      =    10**-1         # kg/s^2
 
 
 n       = 3000
@@ -61,7 +61,7 @@ C4  = 261.63    # Hz
 C4S = 277.18    # Hz
 ωF1 = 2*π*C4    # rad/s
 ωF2 = 2*π*C4S   # rad/s
-b   = 1e-8   # Dampening constant
+b   = 1e-8      # Dampening constant
 
 
 def amp(F, ωF, m, b, ω):
